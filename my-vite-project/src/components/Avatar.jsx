@@ -14,7 +14,7 @@ const Avatar = () => {
         overflow-hidden
       `}
         >
-            <span className="transform rotate-12 translate-y-[-1px] translate-x-[-1px] inline-block">C</span>
+            <span className="transform rotate-12 translate-y-[-1px] translate-x-[-1px] inline-block">Ö</span>
         </div>
     );
 };
