@@ -3,6 +3,7 @@ import { ThemeProvider } from './contexts/ThemeContext';
 import { LanguageProvider } from './contexts/LanguageContext';
 import Content from './components/Content'; // Import the Content component
 
+
 function App() {
   const [themeMode, setThemeMode] = useState('light');
 
