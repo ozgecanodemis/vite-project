@@ -1,4 +1,4 @@
-import useTheme from '../contexts/DarkModeBtn';
+import useTheme from '../contexts/DarkModeContext';
 
 function ThemeBtn() {
     const { themeMode, lightTheme, darkTheme } = useTheme()
