@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { ThemeProvider } from './contexts/DarkModeContext';
 import { LanguageProvider } from './contexts/LanguageContext';
 import Content from './components/Content';
-import CardInfo from './components/CardInfo'
+import InfoSection from './components/InfoSection';
 
 
 function App() {
@@ -20,7 +20,9 @@ function App() {
     <ThemeProvider value={{ themeMode, lightMode, darkMode }}>
       <LanguageProvider>
         <Content />
-        <CardInfo />
+        <InfoSection />
+
+
       </LanguageProvider>
     </ThemeProvider>
   );

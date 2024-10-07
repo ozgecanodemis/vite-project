@@ -5,14 +5,14 @@ function Languagetxt() {
     const { language, toggleLanguage } = useContext(LanguageContext);
 
     return (
-        <span className="text-gray-500 dark:text-gray-600">
+        <span className="  text-gray-500 dark:text-gray-600">
             <button
                 className="focus:outline-none text-[0.7rem] font-bold"
                 onClick={toggleLanguage}
             >
                 {language === 'en' ? (
                     <>
-                        <span className="text-[#B7AAFF]">TÜRKÇE</span>'YE GEÇ
+                        <span className="text-[#3730A3] dark:text-[#B7AAFF]">TÜRKÇE</span>'YE GEÇ
                     </>
                 ) : (
                     <>

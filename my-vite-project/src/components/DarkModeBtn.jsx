@@ -14,7 +14,7 @@ function DarkModeBtn
     }
 
     return (
-        <label className="relative inline-flex items-center cursor-pointer pt-[2px]">
+        <label className=" relative inline-flex items-center cursor-pointer pt-[2px]">
             <input
                 type="checkbox"
                 value=""
