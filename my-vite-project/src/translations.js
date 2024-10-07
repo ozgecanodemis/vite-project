@@ -3,7 +3,6 @@ export const translations = {
         skills: "Skills",
         projects: "Projects",
         hireMe: "Hire me",
-        sectionTitle: "Sample Section",
 
         cardTitle: "Creative thinker Minimalism lover",
         cardSubtitle: "Özgecan Ödemiş",
@@ -16,7 +15,6 @@ export const translations = {
         skills: "Yetenekler",
         projects: "Projeler",
         hireMe: "Beni işe al",
-        sectionTitle: "Örnek Bölüm",
 
         cardTitle: "Yaratıcı düşünür, Minimalizmi benimser",
         cardSubtitle: "Özgecan Ödemiş",

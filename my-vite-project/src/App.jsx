@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { ThemeProvider } from './contexts/DarkModeContext';
 import { LanguageProvider } from './contexts/LanguageContext';
 import Content from './components/Content';
-import CardInfo from './components/CardInfo';
+import CardInfo from './components/CardInfo'
 
 
 function App() {

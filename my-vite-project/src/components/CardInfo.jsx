@@ -9,12 +9,12 @@ const CardInfo = () => {
             {/* Text Content */}
             <div className="flex-1">
                 {/* First Paragraph */}
-                <p className="text-20px dark:text-gray-300 mb-2 text-[#3730A3]">
+                <p className="text-sm text-gray-600 dark:text-gray-300 mb-2">
                     {translations.cardSubtitle}
                 </p>
 
                 {/* Heading */}
-                <h1 className="text-4xl font-bold text-gray-700 dark:text-white mb-4">
+                <h1 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
                     {translations.cardTitle}
                 </h1>
 
