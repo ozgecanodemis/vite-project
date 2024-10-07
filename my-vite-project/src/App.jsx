@@ -1,14 +1,15 @@
 import { useEffect, useState } from 'react';
-import { ThemeProvider } from './contexts/ThemeContext';
+import { ThemeProvider } from './contexts/DarkModeContext';
 import { LanguageProvider } from './contexts/LanguageContext';
-import Content from './components/Content'; // Import the Content component
+import Content from './components/Content';
+import CardInfo from './components/CardInfo';
 
 
 function App() {
   const [themeMode, setThemeMode] = useState('light');
 
-  const lightTheme = () => setThemeMode('light');
-  const darkTheme = () => setThemeMode('dark');
+  const lightMode = () => setThemeMode('light');
+  const darkMode = () => setThemeMode('dark');
 
   useEffect(() => {
     document.querySelector('html').classList.remove('dark', 'light');
@@ -16,9 +17,10 @@ function App() {
   }, [themeMode]);
 
   return (
-    <ThemeProvider value={{ themeMode, lightTheme, darkTheme }}>
+    <ThemeProvider value={{ themeMode, lightMode, darkMode }}>
       <LanguageProvider>
         <Content />
+        <CardInfo />
       </LanguageProvider>
     </ThemeProvider>
   );

@@ -1,17 +1,17 @@
 import { createContext, useContext } from "react";
 
-export const DarkModeBtn
+export const DarkModeContext
   = createContext({
     themeMode: "light",
-    lightTheme: () => { },
-    darkTheme: () => { },
+    lightMode: () => { },
+    darkMode: () => { },
   });
 
-export const ThemeProvider = DarkModeBtn
+export const ThemeProvider = DarkModeContext
   .Provider;
 
-export default function useTheme() {
-  return useContext(DarkModeBtn
+export default function useMode() {
+  return useContext(DarkModeContext
 
   );
 }

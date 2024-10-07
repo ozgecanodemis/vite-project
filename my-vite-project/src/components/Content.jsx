@@ -1,8 +1,9 @@
 import React, { useContext } from 'react';
-import ThemeBtn from './ThemeBtn';
+import DarkModeBtn from './DarkModeBtn';
 import Languagetxt from './Languagetxt';
 import Avatar from './Avatar';
 import { LanguageContext } from '../contexts/LanguageContext';
+
 
 function Content() {
     const { translations } = useContext(LanguageContext);
@@ -12,7 +13,7 @@ function Content() {
             <div className="max-w-screen-xl mx-auto">
                 {/* Dark Mode Toggle and Language Switcher */}
                 <div className="flex justify-end mb-6">
-                    <ThemeBtn />
+                    <DarkModeBtn />
                     <span className="mx-2 text-gray-800 dark:text-gray-200">|</span>
                     <Languagetxt />
                 </div>
@@ -33,6 +34,7 @@ function Content() {
                         </button>
                     </div>
                 </div>
+
             </div>
         </div>
     );
