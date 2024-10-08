@@ -31,6 +31,15 @@ export const translations = {
         ProfileP7: 'İstanbul Technical Univ. Textile Engineering 2020',
         ProfileP8: 'Frontend, UI',
         ProfileP9: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vehicula tempor eros, sit amet malesuada arcu.Phasellus scelerisque augue et nunc vehicula, vel accumsan nisl volutpat. Curabitur bibendum dapibus felis, vitae faucibus purus vulputate non.',
+
+        headingPro: 'Projects',
+        ProH1: 'Project1',
+        ProP1: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus fringilla venenatis ligula, ac pharetra purus laoreet at. Pellentesque eleifend, orci non ultrices efficitur, nisl quam viverra libero, sit amet posuere nulla libero eget mi. Phasellus scelerisque augue et nunc vehicula, vel accumsan nisl volutpat. Curabitur bibendum dapibus felis, vitae faucibus purus vulputate non. ',
+        ProBtn1: 'react',
+        ProBtn2: 'redux',
+        ProBtn3: 'axios',
+        nav1: 'Github',
+        nav2: 'View Site'
     },
 
     tr: {
@@ -66,5 +75,9 @@ export const translations = {
         ProfileP7: 'İstanbul Technical Üni. Tekstil Müh. 2020',
         ProfileP8: 'Frontend, UI',
         ProfileP9: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vehicula tempor eros, sit amet malesuada arcu.Phasellus scelerisque augue et nunc vehicula, vel accumsan nisl volutpat. Curabitur bibendum dapibus felis, vitae faucibus purus vulputate non.',
+
+        ProBtn1: 'react',
+        ProBtn2: 'redux',
+        ProBtn3: 'axios',
     }
 }

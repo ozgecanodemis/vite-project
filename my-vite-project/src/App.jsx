@@ -5,6 +5,7 @@ import Content from './components/Content';
 import InfoSection from './components/InfoSection';
 import SkillsSection from './components/SkillsSection';
 import ProfileSection from './components/ProfileSection';
+import ProjectSection from './components/ProjectsSection';
 
 
 function App() {
@@ -24,8 +25,9 @@ function App() {
         <Content />
         <InfoSection />
         <SkillsSection />
-
         <ProfileSection />
+        <ProjectSection />
+
 
       </LanguageProvider>
     </ThemeProvider>
