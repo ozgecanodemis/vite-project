@@ -17,7 +17,7 @@ const InfoSection = () => {
 
 
                 {/* Heading */}
-                <h1 className="text-7xl font-bold text-gray-700 dark:text-[#AEBCCF] mb-4">
+                <h1 className="text-7xl max-w-2xl font-bold text-gray-700 dark:text-[#AEBCCF] mb-4">
                     {translations.cardTitle}
                 </h1>
 
