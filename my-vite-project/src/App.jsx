@@ -6,6 +6,7 @@ import InfoSection from './components/InfoSection';
 import SkillsSection from './components/SkillsSection';
 import ProfileSection from './components/ProfileSection';
 import ProjectSection from './components/ProjectsSection';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -22,12 +23,13 @@ function App() {
   return (
     <ThemeProvider value={{ themeMode, lightMode, darkMode }}>
       <LanguageProvider>
+
         <Content />
         <InfoSection />
         <SkillsSection />
         <ProfileSection />
         <ProjectSection />
-
+        <Footer />
 
       </LanguageProvider>
     </ThemeProvider>

@@ -33,13 +33,22 @@ export const translations = {
         ProfileP9: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vehicula tempor eros, sit amet malesuada arcu.Phasellus scelerisque augue et nunc vehicula, vel accumsan nisl volutpat. Curabitur bibendum dapibus felis, vitae faucibus purus vulputate non.',
 
         headingPro: 'Projects',
-        ProH1: 'Project1',
+        ProH1: 'Grid Project',
+        ProH2: 'Pizza Project',
+        ProH3: 'Movies Project',
         ProP1: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus fringilla venenatis ligula, ac pharetra purus laoreet at. Pellentesque eleifend, orci non ultrices efficitur, nisl quam viverra libero, sit amet posuere nulla libero eget mi. Phasellus scelerisque augue et nunc vehicula, vel accumsan nisl volutpat. Curabitur bibendum dapibus felis, vitae faucibus purus vulputate non. ',
         ProBtn1: 'react',
         ProBtn2: 'redux',
         ProBtn3: 'axios',
         nav1: 'Github',
-        nav2: 'View Site'
+        nav2: 'View Site',
+
+        footerH1: "Let's work together on your next product.",
+        mail: "odemisozgecan@gmail.com",
+        navigator1: 'Personal Blog',
+        navigator2: "Github",
+        navigator3: "Linkedin",
+
     },
 
     tr: {
@@ -76,8 +85,21 @@ export const translations = {
         ProfileP8: 'Frontend, UI',
         ProfileP9: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vehicula tempor eros, sit amet malesuada arcu.Phasellus scelerisque augue et nunc vehicula, vel accumsan nisl volutpat. Curabitur bibendum dapibus felis, vitae faucibus purus vulputate non.',
 
+        headingPro: 'Projeler',
+        ProH1: 'Grif Projesi',
+        ProH2: 'Pizza Projesi',
+        ProH3: 'Filmler Projesi',
+        ProP1: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus fringilla venenatis ligula, ac pharetra purus laoreet at. Pellentesque eleifend, orci non ultrices efficitur, nisl quam viverra libero, sit amet posuere nulla libero eget mi. Phasellus scelerisque augue et nunc vehicula, vel accumsan nisl volutpat. Curabitur bibendum dapibus felis, vitae faucibus purus vulputate non. ',
         ProBtn1: 'react',
         ProBtn2: 'redux',
         ProBtn3: 'axios',
+        nav1: 'Github',
+        nav2: 'Siteyi Gör',
+
+        footerH1: "Hadi sıradaki ürününde birlikte çalışalım.",
+        mail: "odemisozgecan@gmail.com",
+        navigator1: 'Kişisel Blog',
+        navigator2: "Github",
+        navigator3: "Linkedin",
     }
 }
