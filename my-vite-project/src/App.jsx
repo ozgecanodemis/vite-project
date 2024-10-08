@@ -3,6 +3,8 @@ import { ThemeProvider } from './contexts/DarkModeContext';
 import { LanguageProvider } from './contexts/LanguageContext';
 import Content from './components/Content';
 import InfoSection from './components/InfoSection';
+import SkillsSection from './components/SkillsSection';
+import ProfileSection from './components/ProfileSection';
 
 
 function App() {
@@ -21,7 +23,9 @@ function App() {
       <LanguageProvider>
         <Content />
         <InfoSection />
+        <SkillsSection />
 
+        <ProfileSection />
 
       </LanguageProvider>
     </ThemeProvider>
