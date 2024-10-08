@@ -1,8 +1,8 @@
-import useTheme from '../contexts/DarkModeContext';
+import useMode from '../contexts/DarkModeContext';
 
 function DarkModeBtn
     () {
-    const { themeMode, lightMode, darkMode } = useTheme()
+    const { themeMode, lightMode, darkMode } = useMode()
 
     const onChangeBtn = (e) => {
         const darkModeStatus = e.currentTarget.checked
