@@ -32,6 +32,7 @@ export const translations = {
         ProfileP8: 'Frontend, UI',
         ProfileP9: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vehicula tempor eros, sit amet malesuada arcu.Phasellus scelerisque augue et nunc vehicula, vel accumsan nisl volutpat. Curabitur bibendum dapibus felis, vitae faucibus purus vulputate non.',
     },
+
     tr: {
         skills: "Yetenekler",
         projects: "Projeler",
@@ -62,7 +63,8 @@ export const translations = {
         ProfileP4: 'Tercih Ettiği Rol',
         ProfileP5: '27.10.1994',
         ProfileP6: 'İstanbul',
-        ProfileP7: 'İstanbul Technical Univ. Textile Engineering 2020',
+        ProfileP7: 'İstanbul Technical Üni. Tekstil Müh. 2020',
         ProfileP8: 'Frontend, UI',
+        ProfileP9: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vehicula tempor eros, sit amet malesuada arcu.Phasellus scelerisque augue et nunc vehicula, vel accumsan nisl volutpat. Curabitur bibendum dapibus felis, vitae faucibus purus vulputate non.',
     }
 }

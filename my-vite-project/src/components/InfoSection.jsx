@@ -7,7 +7,7 @@ const InfoSection = () => {
     const { translations } = useContext(LanguageContext); // Çeviri bilgilerini almayı unutmaaa!!!
 
     return (
-        <div className=" max-w-[1140px] flex items-center justify-between bg-white dark:bg-gray-900 transition-colors duration-300 font-inter mx-auto my-3">
+        <div className=" max-w-[1140px] flex items-center justify-between bg-white dark:bg-gray-900 transition-colors duration-300 font-inter mx-auto transition-colors duration-300">
             {/* 1. parag. */}
             <div className="flex-1">
                 {/* First Paragraph */}
