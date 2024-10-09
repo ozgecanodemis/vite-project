@@ -15,11 +15,11 @@ function Content() {
     };
 
     return (
-        <div className=" bg-white dark:bg-gray-900 transition-colors duration-300">
+        <div className="bg-white dark:bg-gray-900 transition-colors duration-300">
 
             <div className="m-auto max-w-[1140px] mx-auto ">
                 {/* Dark Mode Toggle ve Language Switcher */}
-                <div className=" mt-[20px] flex justify-end mb-6 dark:text-[#B7AAFF]">
+                <div className="mt-[20px] flex justify-end mb-6 dark:text-[#B7AAFF]">
                     <DarkModeBtn />
                     <span className="mx-2 text-gray-800 dark:text-[#B7AAFF]">|</span>
                     <Languagetxt />
@@ -46,9 +46,12 @@ function Content() {
                         >
                             {translations.projects}
                         </p>
-                        <button className="border-2 border-[#3730A3] text-[#3730A3] dark:border-white dark:text-[#3730A3] px-6 py-2 rounded-md hover:bg-[#3730A3] hover:text-white dark:bg-white dark:text-gray-900 transition dark:hover:bg-gray-400 dark:hover:border-gray-400">
+                        <a
+                            href="mailto:odemisozgecan@gmail.com"
+                            className="border-2 border-[#3730A3] text-[#3730A3] dark:border-white dark:text-[#3730A3] px-6 py-2 rounded-md hover:bg-[#3730A3] hover:text-white dark:bg-white dark:text-gray-900 transition dark:hover:bg-gray-400 dark:hover:border-gray-400"
+                        >
                             {translations.hireMe}
-                        </button>
+                        </a>
                     </div>
                 </div>
             </div>

@@ -31,9 +31,12 @@ const InfoSection = () => {
 
                     {/* Butonlar */}
                     <div className="flex space-x-4">
-                        <button className="px-4 py-2 bg-[#3730A3] text-white rounded-md hover:bg-[#4c44cc] transition dark:bg-[#E1E1FF] dark:hover:bg-gray-400 dark:text-[#000000]" >
-                            {translations.button1}
-                        </button>
+                        <a
+                            href="mailto:odemisozgecan@gmail.com">
+                            <button className="px-4 py-2 bg-[#3730A3] text-white rounded-md hover:bg-[#4c44cc] transition dark:bg-[#E1E1FF] dark:hover:bg-gray-400 dark:text-[#000000]" >
+                                {translations.button1}
+                            </button>
+                        </a>
                         <a href="https://github.com/ozgecanodemis">
                             <button className="border-2 border-[#3730A3] text-[#3730A3] dark:border-[#E1E1FF] px-6 py-2 rounded-md hover:bg-[#3730A3] hover:text-white dark:hover:bg-[#383838] dark:text-[#E1E1FF] transition">
                                 {translations.button2}
@@ -58,7 +61,7 @@ const InfoSection = () => {
                 </div>
 
             </div>
-        </div>
+        </div >
     );
 };
 
