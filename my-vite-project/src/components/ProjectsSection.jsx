@@ -33,13 +33,13 @@ const ProjectSection = () => {
                                 {translations.ProBtn1}
                             </button>
 
-                            <a href="https://github.com/ozgecanodemis">
+                            <a href="#">
                                 <button className="w-[68px] h-[27px] border-2 border-[#3730A3] text-[#3730A3] dark:border-[#B7AAFF] px-6 py-2 rounded-md hover:bg-[#3730A3] hover:text-white dark:hover:bg-[#383838] dark:text-[#B7AAFF] transition flex items-center justify-center">
                                     {translations.ProBtn2}
                                 </button>
                             </a>
 
-                            <a href="https://www.linkedin.com/in/%C3%B6zgecan-%C3%B6demi%C5%9F-87552117a">
+                            <a href="#">
                                 <button className="w-[68px] h-[27px] border-2 border-[#3730A3] text-[#3730A3] dark:border-[#B7AAFF] px-6 py-2 rounded-md hover:bg-[#3730A3] hover:text-white dark:hover:bg-[#383838] dark:text-[#B7AAFF] transition flex items-center justify-center">
                                     {translations.ProBtn3}
                                 </button>
@@ -47,7 +47,7 @@ const ProjectSection = () => {
                         </div>
 
                         <nav className="flex justify-between mt-4 gap-x-6">
-                            <a href="https://github.com/ozgecanodemis" className="underline underline-offset-4 text-[#3730A3] dark:text-[#E1E1FF]">
+                            <a href="https://github.com/ozgecanodemis/FSWeb-S9-Sprint-Challenge-solution" className="underline underline-offset-4 text-[#3730A3] dark:text-[#E1E1FF]">
                                 {translations.nav1}
                             </a>
                             <a href="https://fs-web-s9-sprint-challenge-solution-hk4r.vercel.app/" className="underline underline-offset-4 text-[#3730A3] dark:text-[#E1E1FF]">
@@ -75,13 +75,13 @@ const ProjectSection = () => {
                                 {translations.ProBtn1}
                             </button>
 
-                            <a href="https://github.com/ozgecanodemis">
+                            <a href="#">
                                 <button className="w-[68px] h-[27px] border-2 border-[#3730A3] text-[#3730A3] dark:border-[#B7AAFF] px-6 py-2 rounded-md hover:bg-[#3730A3] hover:text-white dark:hover:bg-[#383838] dark:text-[#B7AAFF] transition flex items-center justify-center">
                                     {translations.ProBtn2}
                                 </button>
                             </a>
 
-                            <a href="https://www.linkedin.com/in/%C3%B6zgecan-%C3%B6demi%C5%9F-87552117a">
+                            <a href="#">
                                 <button className="w-[68px] h-[27px] border-2 border-[#3730A3] text-[#3730A3] dark:border-[#B7AAFF] px-6 py-2 rounded-md hover:bg-[#3730A3] hover:text-white dark:hover:bg-[#383838] dark:text-[#B7AAFF] transition flex items-center justify-center">
                                     {translations.ProBtn3}
                                 </button>
@@ -90,7 +90,7 @@ const ProjectSection = () => {
 
                         <nav className="flex justify-between mt-4 gap-x-6">
                             <a href="https://github.com/ozgecanodemis/fsweb-s8-challenge-pizza" className="underline underline-offset-4 text-[#3730A3] dark:text-[#E1E1FF]">{translations.nav1}</a>
-                            <a href="#" className="underline underline-offset-4 text-[#3730A3] dark:text-[#E1E1FF]">{translations.nav2}</a>
+                            <a href="https://fsweb-s8-challenge-pizza-hrtids6qb-ozgecans-projects.vercel.app/" className="underline underline-offset-4 text-[#3730A3] dark:text-[#E1E1FF]">{translations.nav2}</a>
                         </nav>
 
                     </div>
@@ -113,23 +113,23 @@ const ProjectSection = () => {
                                 {translations.ProBtn1}
                             </button>
 
-                            <a href="https://github.com/ozgecanodemis">
+                            <a href="#">
                                 <button className="w-[68px] h-[27px] border-2 border-[#3730A3] text-[#3730A3] dark:border-[#B7AAFF] px-6 py-2 rounded-md hover:bg-[#3730A3] hover:text-white dark:hover:bg-[#383838] dark:text-[#B7AAFF] transition flex items-center justify-center">
                                     {translations.ProBtn2}
                                 </button>
                             </a>
 
-                            <a href="https://www.linkedin.com/in/%C3%B6zgecan-%C3%B6demi%C5%9F-87552117a">
+                            <a href="#">
                                 <button className="w-[68px] h-[27px] border-2 border-[#3730A3] text-[#3730A3] dark:border-[#B7AAFF] px-6 py-2 rounded-md hover:bg-[#3730A3] hover:text-white dark:hover:bg-[#383838] dark:text-[#B7AAFF] transition flex items-center justify-center">
                                     {translations.ProBtn3}
                                 </button>
                             </a>
                         </div>
                         <nav className="flex justify-between mt-4 gap-x-6">
-                            <a href="https://github.com/ozgecanodemis" className="underline underline-offset-4 text-[#3730A3] dark:text-[#E1E1FF]">
+                            <a href="https://github.com/ozgecanodemis/fsweb-s10g2-redux-filmler-solution" className="underline underline-offset-4 text-[#3730A3] dark:text-[#E1E1FF]">
                                 {translations.nav1}
                             </a>
-                            <a href="https://fsweb-s10g2-redux-filmler-solution-deploy.vercel.app/movies" className="underline underline-offset-4 text-[#3730A3] dark:text-[#E1E1FF]">
+                            <a href="https://fsweb-s10g2-redux-filmler-solution-deploy-o755fe2ri.vercel.app" className="underline underline-offset-4 text-[#3730A3] dark:text-[#E1E1FF]">
                                 {translations.nav2}
                             </a>
                         </nav>

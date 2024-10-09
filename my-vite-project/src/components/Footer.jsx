@@ -25,10 +25,10 @@ const Footer = () => {
                             {translations.navigator1}
                         </a>
 
-                        <a href="https://fsweb-s10g2-redux-filmler-solution-deploy.vercel.app/movies" className="  text-[#00AB6B] text-[18px]">
+                        <a href="https://github.com/ozgecanodemis" className="  text-[#00AB6B] text-[18px]">
                             {translations.navigator2}
                         </a>
-                        <a href="https://fsweb-s10g2-redux-filmler-solution-deploy.vercel.app/movies" className="  text-[#0077B5] text-[18px]">
+                        <a href="https://www.linkedin.com/in/%C3%B6zgecan-%C3%B6demi%C5%9F-87552117a/" className="  text-[#0077B5] text-[18px]">
                             {translations.navigator3}
                         </a>
 

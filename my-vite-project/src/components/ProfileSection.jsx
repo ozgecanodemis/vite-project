@@ -6,7 +6,7 @@ const ProfileSection = () => {
 
     const { translations } = useContext(LanguageContext);
     return (
-        <div className=" bg-white dark:bg-gray-900 transition-colors duration-300">
+        <div id="projects-section" className=" bg-white dark:bg-gray-900 transition-colors duration-300">
 
             <div className="  w-[1140px] mx-auto  dark:bg-gray-900 dark:py-[0px] transition-colors duration-300">
                 <h1 className="text-5xl text-[#1F2937]
