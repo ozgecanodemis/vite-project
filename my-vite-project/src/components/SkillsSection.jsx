@@ -6,7 +6,7 @@ const SkillsSection = () => {
 
     return (
         <div id="skills-section" className="bg-white dark:bg-gray-900 transition-colors duration-300">
-            <div className="w-full max-w-[1140px] mx-auto px-4 sm:px-6 dark:bg-gray-900 dark:py-[20px] dark:pb-[10px] transition-colors duration-300">
+            <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 dark:bg-gray-900 dark:py-[20px] dark:pb-[10px] transition-colors duration-300">
                 <h1 className="text-5xl text-[#1F2937] h-[64px] dark:text-[#AEBCCF]">
                     {translations.headingSkills}
                 </h1>
